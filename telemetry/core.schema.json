@@ -20,7 +20,8 @@
       }
     },
     "locale" : {
-      "type" : "string"
+      "type" : "string",
+      "pattern": "[a-z][a-z][a-z]?(-[a-zA-Z][a-zA-Z\-]+)?$"
     },
     "os" : {
       "type" : "string"

@@ -296,7 +296,8 @@
               "type": "string"
             },
             "locale": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[a-z][a-z][a-z]?(-[a-zA-Z][a-zA-Z-]+)?$"
             },
             "telemetryEnabled": {
               "type": "boolean"
