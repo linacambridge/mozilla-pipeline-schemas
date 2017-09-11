@@ -48,7 +48,7 @@ message update {
       }
     }
     optional group profile {
-      optional int64 creationDate;
+      required int64 creationDate;
     }
   }
   required group payload {
