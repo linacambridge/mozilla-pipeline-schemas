@@ -11,7 +11,7 @@
         "properties": {
           "times": {
             "type": "object",
-            "maxProperties": 65
+            "maxProperties": 72
           }
         },
         "additionalProperties": {
@@ -21,7 +21,7 @@
     },
     "totals": {
       "type": "object",
-      "maxProperties": 65
+      "maxProperties": 72
     },
     "slices": {
       "type": ["array", "number"],
